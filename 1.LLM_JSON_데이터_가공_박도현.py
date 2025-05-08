@@ -68,8 +68,6 @@ for i in range(len(datas)):
 df = pd.DataFrame(alpaca_data_List, columns=["instruction", "input", "output"])
 
 # 허깅페이스 DataSet에 넣기
-# huggingface_hub.login("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") # 로그인1 토큰 값
-# huggingface_hub.login("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") # 로그인2 토큰 값
 huggingface_hub.login("") # 3-8b 버전
 
 # dataset화
