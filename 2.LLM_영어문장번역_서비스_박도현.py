@@ -172,7 +172,7 @@ import nest_asyncio
 from pyngrok import ngrok
 # import uvicorn
 
-auth_token= "2ucBRiLx6RH8xTgb4oDB4x5TeVU_74VTWRTpyUanxyWQbr4Zs" # 나의 ngrok 토큰
+auth_token= "" # 나의 ngrok 토큰
 ngrok.set_auth_token(auth_token)
 ngrokTunnel= ngrok.connect(9999)
 print("공용 URL", ngrokTunnel.public_url)
